@@ -1,13 +1,48 @@
-# React + Vite
+# 💻 MacBook Pro 3D Clone Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A stunning 3D **MacBook Pro clone** built using **React**, **React Three Fiber (R3F)**, and **Tailwind CSS** — featuring smooth **scroll-triggered animations** that simulate the laptop opening and closing based on scroll direction.
 
-Currently, two official plugins are available:
+> ⚙️ **Built for learning, crafted for style.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧠 About The Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# macbook-clone
+This project is a creative attempt to **recreate a MacBook Pro** using **3D modeling and web animation**, powered by:
+
+- **Three.js** through React-friendly wrapper (**React Three Fiber**)
+- **@react-three/drei** for easy GLTF loading & scroll control
+- **Framer Motion** / Tailwind CSS for UI enhancement
+
+> The laptop **opens on scroll down** and **closes on scroll up**, creating an immersive hardware-inspired experience on the web.
+
+---
+
+## ✨ Features
+
+- 📦 **3D MacBook Pro model (.glb)**
+- 🎯 **Scroll-based animation**: opens and closes with scroll
+- ⚡ **GPU-accelerated rendering**
+- 🎨 **Tailwind CSS** UI for clean layout
+- 🧩 **Component-based architecture** with React
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool/Library         | Role                            |
+|----------------------|----------------------------------|
+| **React**            | UI library                       |
+| **React Three Fiber**| Three.js renderer for React      |
+| **@react-three/drei**| Helpers like `useGLTF`, `useScroll` |
+| **Tailwind CSS**     | Utility-first styling            |
+| **Three.js**         | WebGL 3D engine (under the hood) |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/macbook-clone.git
+cd macbook-clone
